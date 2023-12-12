@@ -1,23 +1,6 @@
 # 2023 Dec 12-13 Trailhead進捗🗻🏃💦
 
-## 🧻ToC
-
-- [2023 Dec 12-13 Trailhead進捗🗻🏃💦](#2023-dec-12-13-trailhead進捗)
-  - [🧻ToC](#toc)
-  - [🏃💨進捗内容](#進捗内容)
-    - [開発者中級](#開発者中級)
-  - [🐞Find and Fix Bugs wiht Apex Replay Debugger](#find-and-fix-bugs-wiht-apex-replay-debugger)
-    - [🐞Launch Your Trailhead Playground](#launch-your-trailhead-playground)
-    - [🐞Set Up Visula Studio Code](#set-up-visula-studio-code)
-    - [🐞Set Up Apex Replay Debugger](#set-up-apex-replay-debugger)
-    - [🐞Debug Your Code](#debug-your-code)
-  - [🔍Apexテスト](#apexテスト)
-    - [🔍Apex単体テストを始める](#apex単体テストを始める)
-    - [🔍Apexトリガをテストする](#apexトリガをテストする)
-    - [🔍Apexテストのテストデータを作成する](#apexテストのテストデータを作成する)
-  - [🧠復習の必要性について](#復習の必要性について)
-
-## 🏃💨進捗内容
+## 🏃💨進捗内状況
 
 ### 開発者中級
 
@@ -31,7 +14,24 @@
   - [x] [Apexトリガをテストする](https://trailhead.salesforce.com/ja/content/learn/modules/apex_testing/apex_testing_triggers?trail_id=force_com_dev_intermediate)
   - [x] [Apexテストのテストデータを作成する](https://trailhead.salesforce.com/ja/content/learn/modules/apex_testing/apex_testing_data?trail_id=force_com_dev_intermediate)
 
-## 🐞Find and Fix Bugs wiht Apex Replay Debugger
+## 🧻ToC
+
+- [2023 Dec 12-13 Trailhead進捗🗻🏃💦](#2023-dec-12-13-trailhead進捗)
+  - [🏃💨進捗内状況](#進捗内状況)
+    - [開発者中級](#開発者中級)
+  - [🧻ToC](#toc)
+  - [🐞Find and Fix Bugs wiht Apex Replay Debugger `2023/12/06 完了`](#find-and-fix-bugs-wiht-apex-replay-debugger-20231206-完了)
+    - [🐞Launch Your Trailhead Playground](#launch-your-trailhead-playground)
+    - [🐞Set Up Visula Studio Code](#set-up-visula-studio-code)
+    - [🐞Set Up Apex Replay Debugger](#set-up-apex-replay-debugger)
+    - [🐞Debug Your Code](#debug-your-code)
+  - [🔍Apexテスト `2023/12/12 完了`](#apexテスト-20231212-完了)
+    - [🔍Apex単体テストを始める](#apex単体テストを始める)
+    - [🔍Apexトリガをテストする](#apexトリガをテストする)
+    - [🔍Apexテストのテストデータを作成する](#apexテストのテストデータを作成する)
+  - [🧠復習の必要性について](#復習の必要性について)
+
+## 🐞Find and Fix Bugs wiht Apex Replay Debugger `2023/12/06 完了`
 
 ### 🐞Launch Your Trailhead Playground
 
@@ -60,7 +60,7 @@ JDK バージョン 17 (推奨)、JDK バージョン 11、または JDK バー�
 結局`Playground`を新規でつくったら何事もなく通ってしまった...
 **メモ供養👏南無**
 
-## 🔍Apexテスト
+## 🔍Apexテスト `2023/12/12 完了`
 
 ### 🔍Apex単体テストを始める
 
@@ -114,9 +114,8 @@ public class RandomContactFactory {
 }
 
 // 「generateRandomContacts」メソッドの実行が失敗しました。メソッドが存在しないか、静的ではないか、取引先責任者レコードの正しいセットを返しませんでした。
+// for loop 内の `int_number < i`が誤り．正しくは `i < int_number`であった．
 ```
-
-> for loop 内の `int_number < i`が誤り．正しくは `i < int_number`であった．
 
 ## 🧠復習の必要性について
 
@@ -125,4 +124,4 @@ public class RandomContactFactory {
 - 各セクションで取り組んだ内容を自分なりに多少変化させて定着を図る．
   - 「ここの動作は？」って聞かれた際に脊髄反射⚡で解答できるようにする．
     - 経験値なくしてコーディングの成長はないって話
-    - Playgroundをいじり倒す??
+    - Playgroundをいじり倒す🤏🤏🤏
