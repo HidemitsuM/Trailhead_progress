@@ -26,10 +26,10 @@
   - [x] Set Up Visula Studio Code
   - [x] Set Up Apex Replay Debugger
   - [x] Debug Your Code
-- [ ] [Apexテスト](https://trailhead.salesforce.com/ja/content/learn/modules/apex_testing?trail_id=force_com_dev_intermediate) `2023/12/12 完了`
+- [x] [Apexテスト](https://trailhead.salesforce.com/ja/content/learn/modules/apex_testing?trail_id=force_com_dev_intermediate) `2023/12/12 完了`
   - [x] [Apex単体テストを始める](https://trailhead.salesforce.com/ja/content/learn/modules/apex_testing/apex_testing_intro?trail_id=force_com_dev_intermediate)
   - [x] [Apexトリガをテストする](https://trailhead.salesforce.com/ja/content/learn/modules/apex_testing/apex_testing_triggers?trail_id=force_com_dev_intermediate)
-  - [ ] [Apexテストのテストデータを作成する](https://trailhead.salesforce.com/ja/content/learn/modules/apex_testing/apex_testing_data?trail_id=force_com_dev_intermediate)
+  - [x] [Apexテストのテストデータを作成する](https://trailhead.salesforce.com/ja/content/learn/modules/apex_testing/apex_testing_data?trail_id=force_com_dev_intermediate)
 
 ## 🐞Find and Fix Bugs wiht Apex Replay Debugger
 
@@ -70,8 +70,6 @@ JDK バージョン 17 (推奨)、JDK バージョン 11、または JDK バー�
 ### 🔍Apexトリガをテストする
 
 ```java
-//最初に作成したテストクラス カバー率2/3
-
 @isTest
 public class TestRestrictContactByName {
     
@@ -96,7 +94,29 @@ public class TestRestrictContactByName {
 
 ### 🔍Apexテストのテストデータを作成する
 
-hoge
+```java
+//最初に作成したクラス
+public class RandomContactFactory {
+    
+    public static list<Contact> generateRandomContacts (Integer int_cnumber, String str_clastname){
+        List<Contact> contact_list = new List<Contact>();
+        
+        // codeblock
+        for(integer i = 0; int_cnumber < i; i++){
+            Contact c = new Contact(FirstName = 'testContact', LastName = str_clastname);
+            contact_list.add(c);
+        }
+        
+        return contact_list;
+        
+    }
+        
+}
+
+// 「generateRandomContacts」メソッドの実行が失敗しました。メソッドが存在しないか、静的ではないか、取引先責任者レコードの正しいセットを返しませんでした。
+```
+
+> for loop 内の `int_number < i`が誤り．正しくは `i < int_number`であった．
 
 ## 🧠復習の必要性について
 
