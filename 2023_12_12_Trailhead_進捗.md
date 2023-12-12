@@ -1,7 +1,5 @@
 # 2023 Dec 12-13 Trailhead進捗🗻🏃💦
 
----
-
 ## 🧻ToC
 
 - [2023 Dec 12-13 Trailhead進捗🗻🏃💦](#2023-dec-12-13-trailhead進捗)
@@ -35,8 +33,6 @@
 
 ## 🐞Find and Fix Bugs wiht Apex Replay Debugger
 
----
-
 ### 🐞Launch Your Trailhead Playground
 
 ### 🐞Set Up Visula Studio Code
@@ -65,8 +61,6 @@ JDK バージョン 17 (推奨)、JDK バージョン 11、または JDK バー�
 **メモ供養👏南無**
 
 ## 🔍Apexテスト
-
----
 
 ### 🔍Apex単体テストを始める
 
@@ -105,8 +99,6 @@ public class TestRestrictContactByName {
 hoge
 
 ## 🧠復習の必要性について
-
----
 
 - 開発者初級/中級に出てきた内容は必ずできるようにしたい．
   - コードを記述するケースにおいて，記述する内容自体はキメラでもいいが，動作や動きに対する理解は必要ですよ，と(まぁ当たり前...)
